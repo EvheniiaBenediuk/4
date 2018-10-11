@@ -93,7 +93,7 @@ text-transform: uppercase;
     margin-right: 25px;
     cursor: pointer;
 }
-.container_products:hover .name{
+.container_products:hover .name {
     background: #1abc9c;
     cursor: pointer;
     transition: 1s;
@@ -160,6 +160,14 @@ text-transform: uppercase;
 }
 .img_news {
     margin-bottom: 20px;
+}
+
+.title_news::after{
+    content: "";
+    border-bottom: 4px solid #1abc9c;
+    display: block;
+    width: 130px;
+    margin: 15px 0px 30px 0px;
 }
 .title_main {
     margin: 0px auto;
